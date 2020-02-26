@@ -4,5 +4,6 @@
 export default () => (
   <div>
     <p>Hello DSC!</p>
+    <p> Hello world!</p>
   </div>
 )
