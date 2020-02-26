@@ -3,6 +3,6 @@
 
 export default () => (
   <div>
-    <p>Hello DSC!</p>
+    <p>TestHello DSC!</p>
   </div>
 )
