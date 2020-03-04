@@ -15,12 +15,14 @@ padding: 10px;
 }
 .section-generic>div {
     /* background-color: black; */
-    min-height: 400px;
+    /* min-height: 300px; */
     width: 100%;
     margin: 10px;
     display: flex;
     padding: 10px;
     flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .section-generic>.accent {
     background-color: rgba(1,1,1,0.03);
