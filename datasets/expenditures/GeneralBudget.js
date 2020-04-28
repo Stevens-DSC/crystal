@@ -30,28 +30,32 @@ const sum = (exp) =>
 
 export default () => (
   <>
-    <TextHeader
-      title={"Let's talk budgets."}
-      text={
-        <p>
-          Whether you're looking for how much is spent on education, or how the
-          funding for the park's going, we've got you covered.
-        </p>
-      }
-      first={true}
-    />
-    <div className='overview-genbudget'>
-      <section className='section-generic'>
-        <LargeStatContainer
-          title={"Total Tax Expenditures"}
-          value={sum(expenditures)}
-          subtext={"Now, let's see how that gets broken up"}
-          sublink={"https://www.dropbox.com/s/xz913vlz04ud4nu/2019%20City%20of%20Hoboken%20Adopted%20Budget.pdf?dl=0"}
-        />
-        <PieChart data={expenditures} />
-      </section>
+    <section id='budgets'>
+      <TextHeader
+        title={"Let's talk budgets."}
+        text={
+          <p>
+            Whether you're looking for how much is spent on education, or how
+            the funding for the park's going, we've got you covered.
+          </p>
+        }
+        first={false}
+      />
+      <div className='overview-genbudget'>
+        <section className='section-generic'>
+          <LargeStatContainer
+            title={"Total Tax Expenditures"}
+            value={sum(expenditures)}
+            subtext={"Now, let's see how that gets broken up"}
+            sublink={
+              "https://www.dropbox.com/s/xz913vlz04ud4nu/2019%20City%20of%20Hoboken%20Adopted%20Budget.pdf?dl=0"
+            }
+          />
+          <PieChart data={expenditures} />
+        </section>
 
-      <SpendingTable expenditures={expenditures} />
-    </div>
+        <SpendingTable expenditures={expenditures} />
+      </div>
+    </section>
   </>
 )

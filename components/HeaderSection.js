@@ -6,6 +6,7 @@ export default () => (
         <img className='logo' src='/logo.svg' alt='logo' />
       </div>
       <div className='accent'></div>
+      
     </div>
   </>
 )

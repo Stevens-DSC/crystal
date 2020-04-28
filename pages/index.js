@@ -6,6 +6,8 @@ import Footer from "../components/Footer"
 import HeaderSection from "../components/HeaderSection"
 import TextHeader from "../components/TextHeader"
 import Leadership from "../datasets/leadership/Leadership"
+import Transport from "../datasets/transport/Transport"
+import NavSection from "../datasets/nav/NavSection"
 
 export default () => (
   <>
@@ -13,7 +15,11 @@ export default () => (
 
       <HeaderSection />
 
+      <NavSection />
+
       <GeneralBudget />
+
+      <Transport />
 
       <Leadership />
 
