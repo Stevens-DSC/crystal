@@ -33,7 +33,7 @@ export default (props) => (
           <Person
             name={"Chief Kenneth Ferrante"}
             title={"Police Department"}
-            contact={"http://www.hobokenpd.com/"}
+            contact={"https://www.hobokenpd.com/"}
             image={
               "https://hudsoncountyview.com/wp-content/uploads/2014/10/ferrante.jpeg"
             }
@@ -42,7 +42,7 @@ export default (props) => (
           <Person
             name={"Chief Brian M. Crimmins"}
             title={"Fire Department"}
-            contact={"http://www.hobokenpd.com/"}
+            contact={"https://www.hobokenpd.com/"}
             image={"https://i.imgur.com/pQX0MwQ.png"}
           />
         </PeopleSection>
@@ -85,9 +85,9 @@ export default (props) => (
           <Person
             name={"Sharyn Angley"}
             title={"President, Board of Education"}
-            contact={"http://www.hobokenschools.org/board_of_education/members"}
+            contact={"https://www.hobokenschools.org/board_of_education/members"}
             image={
-              "http://p9cdn4static.sharpschool.com/UserFiles/Servers/Server_2822288/Image/BOE%20Headshots/Angley.jpg"
+              "https://p9cdn4static.sharpschool.com/UserFiles/Servers/Server_2822288/Image/BOE%20Headshots/Angley.jpg"
             }
           />
           <Person
