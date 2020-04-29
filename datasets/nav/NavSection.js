@@ -13,7 +13,8 @@ export default (props) => (
         first={true}
         text={
           <>
-            <p>We have you covered for all things Hoboken - the mile square city.</p>
+            <p>We aim to bring attention to data-driven trends within the Hoboken government so that we can collectively build a better, well-informed, local community.</p>
+            <p>Project Crystal is constantly evolving with the hope to increase public involvement in government affairs.</p>
             <div className='nav-section'>
               <ul>
                 <li>
