@@ -11,7 +11,7 @@ export default (props) => (
       <p>
         <a target="_blank" className="hidden-button" href={props.sublink || "#"}>
           <>
-            {props.subtext} <img src='/right_arrow_thing.svg' alt='logo' />
+            {props.subtext} <img src="https://dsc.justinoboyle.com/right_arrow_thing.svg" alt='logo' />
           </>
         </a>
       </p>
