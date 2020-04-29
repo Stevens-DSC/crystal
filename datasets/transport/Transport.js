@@ -75,7 +75,7 @@ export default (props) => (
                   <every>to/from</every>
                 </pth>{" "}
                 <subheading>
-                  Consult <a href='https://njtransit.com'>NJ Transit</a> for
+                  Consult <a target="_blank" href='https://njtransit.com'>NJ Transit</a> for
                   schedules.
                 </subheading>
               </li>
@@ -88,7 +88,7 @@ export default (props) => (
                   <every>to/from</every>
                 </pth>{" "}
                 <subheading>
-                  Consult <a href='https://njtransit.com'>NJ Transit</a> for
+                  Consult <a target="_blank" href='https://njtransit.com'>NJ Transit</a> for
                   schedules.
                 </subheading>
               </li>
@@ -101,7 +101,7 @@ export default (props) => (
                   <every>Free rapid-transit bus</every>
                 </pth>{" "}
                 <subheading>
-                  Consult <a href='https://njtransit.com'>The Hop Map</a> for
+                  Consult <a target="_blank" href='https://njtransit.com'>The Hop Map</a> for
                   details.
                 </subheading>
               </li>
@@ -122,30 +122,35 @@ export default (props) => (
               <a
                 href='https://www.hobokennj.gov/resources/street-cleaning-schedule'
                 class='call-to-action'
+                target="_blank" 
               >
                 Street cleaning schedule <img src='/right_arrow_thing.svg' alt='logo' />
               </a>
               <a
                 href='https://www.hobokennj.gov/resources/pay-a-parking-ticket'
                 class='call-to-action'
+                target="_blank" 
               >
                 Pay a parking ticket <img src='/right_arrow_thing.svg' alt='logo' />
               </a>
               <a
                 href='https://www.hobokennj.gov/resources/temporary-parking-permit'
                 class='call-to-action'
+                target="_blank" 
               >
                 Temporary parking permit <img src='/right_arrow_thing.svg' alt='logo' />
               </a>
               <a
                 href='https://www.hobokennj.gov/parking-center'
                 class='call-to-action'
+                target="_blank" 
               >
                 Parking center and FAQ <img src='/right_arrow_thing.svg' alt='logo' />
               </a>
               <a
                 href='https://www.hobokennj.gov/resources/parking-in-hoboken'
                 class='call-to-action'
+                target="_blank" 
               >
                 More permits <img src='/right_arrow_thing.svg' alt='logo' />
               </a>
