@@ -404,6 +404,8 @@ pth img {
     margin-top: 10px;
 }
 
+svg > g > g:last-child { pointer-events: none }
+
 @media only screen and (max-width: 900px) {
   section.section-generic {
     flex-direction: column;
