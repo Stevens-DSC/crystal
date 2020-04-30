@@ -1,52 +1,70 @@
-
-.text-header-not-first {
+ .text-header-not-first {
     padding-bottom: 15px;
-    color: white;
+    color: #fff;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
-
-}
-.text-header-not-first .text-section {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-header-not-first h1 {
+    font-size: 36pt;
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(/hoboken.jpg) no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    mix-blend-mode: lighten;
+    color: transparent;
+  }
+  
+  .text-header-not-first .text-section {
     padding-bottom: 0;
-}
-
-.div-sidebyside {
+    text-align: center;
+  }
+  
+  .div-sidebyside {
     display: flex;
     flex-direction: row;
-}
-.div-sidebyside .sect {
+  }
+  
+  .div-sidebyside .sect {
     width: 100%;
     padding: 20px;
-    
-}
-
-.sect-black {
+  }
+  
+  .sect-black {
     background-color: black;
     color: white;
-}
-
-.sect h3 {
+  }
+  
+  .sect h3 {
     padding: 0;
     margin: 0;
-}
-
-.sect iframe {
+  }
+  
+  .sect iframe {
     width: 100%;
     border: none;
     min-height: 410px;
-}
-
-.subway-lines li {
+  }
+  
+  .subway-lines li {
     display: flex;
     flex-direction: column;
-}
-
-.subway-lines li {
+  }
+  
+  .subway-lines li {
     font-size: 12px;
-
-}
-
-.subway-lines li to {
+  }
+  
+  .subway-lines li to {
     font-size: 14px;
     font-weight: bolder;
     border-radius: 5px;
@@ -54,98 +72,103 @@
     padding: 2px;
     padding-left: 5px;
     padding-right: 5px;
-
-}
-
-.subway-lines pth every {
+  }
+  
+  .subway-lines pth every {
     padding-left: 10px;
-}
-
-.subway-lines subheading {
+  }
+  
+  .subway-lines subheading {
     padding-top: 5px;
-}
-
-.subway-lines li {
+  }
+  
+  .subway-lines li {
     padding-bottom: 12px;
-}
-
-.subway-wtc to {
+  }
+  
+  .subway-wtc to {
     background-color: #009e58;
-}
-
-.subway-33 to {
+  }
+  
+  .subway-33 to {
     background-color: #0082c6;
-}
-
-.subway-hblr to {
+  }
+  
+  .subway-hblr to {
     background-color: #3a866d;
-}
-
-.subway-bus to {
+  }
+  
+  .subway-bus to {
     background-color: rgb(1, 17, 80);
-}
-
-.subway-hop to {
+  }
+  
+  .subway-hop to {
     background-color: black;
-}
-
-pth img {
+  }
+  
+  pth img {
     height: 20px;
     vertical-align: middle;
     padding-right: 10px;
     filter: grayscale(100%);
-}
-.black-bar {
+  }
+  
+  .black-bar {
     width: 100%;
     background-color: black;
     margin-bottom: -20px;
     color: white;
-}
-
-.black-bar p {
-    max-width: fit-content;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .black-bar p {
+    margin: 0;
     font-size: 12px;
     padding: 18px;
-}
-
-.nobottompad {
+  }
+  
+  .nobottompad {
     padding-bottom: 0px;
-}
-
-.sect h3 {
+  }
+  
+  .sect h3 {
     width: fit-content;
     margin: 0 auto;
-}
-
-.sect subheading {
+  }
+  
+  .sect subheading {
     margin-left: 30px;
-}
-
-.sect a {
+  }
+  
+  .sect a {
     text-decoration: none;
     color: rgb(1, 17, 80);
-}
-
-.subway-lines {
+  }
+  
+  .subway-lines {
     max-width: fit-content;
     padding-top: 24px;
     margin: 0 auto;
-}
-.sect-black {
+  }
+  
+  .sect-black {
     width: fit-content;
     margin: 0 auto;
-}
-.sect-black-links {
+  }
+  
+  .sect-black-links {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: fit-content;
-}
-.sect-black-links {
+  }
+  
+  .sect-black-links {
     margin-top: 48px;
-}
-.sect-black-links a {
+  }
+  
+  .sect-black-links a {
     padding: 10px;
     background-color: white;
     margin: 5px;
@@ -154,20 +177,23 @@ pth img {
     border-radius: 5px;
     border: 1px solid white;
     color: black;
-}
-.sect-black-links a:hover {
+  }
+  
+  .sect-black-links a:hover {
     filter: invert(100%);
     border: 1px solid black;
-}
-.sect-black-links img {
+  }
+  
+  .sect-black-links img {
     width: auto;
     height: 13px;
-}
-.nav-section a {
+  }
+  
+  .nav-section a {
     /* color: blue; */
     /* background-color: blue; */
     color: black;
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;
-}
+  }
