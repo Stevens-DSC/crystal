@@ -1,4 +1,17 @@
-# Project Crystal - the Hoboken Open Data Project
+# Project Crystal
+
+<p align="center">
+  <br><br>
+  <img src="public/logo.svg" width="280">
+</p>
+
+<p align="center">
+<a href="https://dsc.justinoboyle.com">Visit</a> |
+<a href="https://github.com/Stevens-DSC/crystal/issues">Issues</a> |
+<a href="https://github.com/Stevens-DSC/crystal/pulls">Pull Requests</a>
+
+</br>
+
 
 We aim to bring attention to data-driven trends within the Hoboken government so that we can collectively build a better, well-informed, local community.
 
