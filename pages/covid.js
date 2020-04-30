@@ -2,8 +2,8 @@ import { render } from "react-dom";
 
 export default () => (
     <>
-      <div class="header">
-        <section class="top-sect">
+      <div className="header">
+        <section className="top-sect">
             <h1></h1>
         </section>
       </div>
