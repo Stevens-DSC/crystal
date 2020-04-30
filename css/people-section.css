@@ -1,0 +1,73 @@
+.people-section {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  justify-content: center;
+}
+.person img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.person .hidden-button img {
+  width: auto;
+  height: 13px;
+}
+
+.person .hidden-button {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.person .hidden-button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  color: white;
+  background-color: black;
+}
+.person .hidden-button:hover img {
+  filter: invert(100%);
+}
+
+.person {
+  padding: 10px;
+  margin: 20px;
+}
+
+.people-section-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.people-section-container h2 {
+  padding-top: 24px;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.person h3 {
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.person h4 {
+  border-radius: 100%;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 25px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: lighter;
+  width: 150px;
+}

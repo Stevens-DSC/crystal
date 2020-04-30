@@ -1,0 +1,23 @@
+@media only screen and (max-width: 900px) {
+    section.section-generic {
+      flex-direction: column;
+    }
+    .section-chart {
+      max-width: 600px;
+      padding: 20px;
+      margin: auto;
+    }
+    .text-header,
+    .text-footer .text-section {
+      padding: 20px;
+      margin: auto;
+      max-width: 300px;
+    }
+    .div-sidebyside {
+        flex-direction: column;
+        margin-right: 40px;
+    }
+  }
+  
+  
+  

@@ -1,0 +1,109 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.pageContainer {
+  /*  */
+}
+.header {
+  max-width: 800px;
+  margin: auto;
+  color: white;
+}
+.logo {
+  filter: brightness(1.5);
+}
+.text-header {
+  color: black;
+}
+.text-footer {
+  color: white;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+}
+.overview-genbudget {
+  background-color: white;
+  padding-bottom: 50px;
+}
+.hoboken-image {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(/hoboken.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.section-generic {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.section-chart {
+  max-width: 600px;
+  margin: auto;
+}
+.section-generic > div {
+  /* background-color: black; */
+  /* min-height: 300px; */
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-generic > .accent {
+  /* background-color: rgba(1,1,1,0.03);*/
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer {
+  /* backg */
+}
+
+.header {
+  display: flex;
+  /* max-height: 30px; */
+}
+
+.text-section {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 125px;
+}
+
+footer a {
+  color: white;
+}
+
+a.hidden-button:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.hidden-button:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.hidden-button:hover {
+}
