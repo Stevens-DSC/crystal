@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Chart } from "react-google-charts"
 import LargeStatContainer from "../../components/LargeStatContainer"
 import SpendingTable from "./SpendingTable"
-import PieChart from "../../components/PieChart"
+import PieChartComponent from "../../components/PieChartComponent"
 import TextHeader from "../../components/TextHeader"
 
 const expenditures = [
@@ -51,7 +51,7 @@ export default () => (
               "https://www.dropbox.com/s/xz913vlz04ud4nu/2019%20City%20of%20Hoboken%20Adopted%20Budget.pdf?dl=0"
             }
           />
-          <PieChart data={expenditures} />
+          <PieChartComponent data={expenditures} />
         </section>
 
         <SpendingTable expenditures={expenditures} />
