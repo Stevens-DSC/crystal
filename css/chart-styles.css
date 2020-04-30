@@ -1,0 +1,46 @@
+.chart-table {
+  font-family: "Playfair Display", serif;
+}
+.chart-table td {
+  min-width: fit-content;
+
+  width: 100%;
+  height: 100%;
+  border: 1px dotted black;
+  padding: 5px;
+}
+
+.chart-table table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.chart-table tr:first-of-type {
+  font-weight: bolder;
+  width: fit-content;
+  border: 1px solid black;
+}
+
+.header > div {
+  width: 100%;
+}
+
+.largeStat {
+  font-size: 40px;
+  color: green;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+
+.largeStatContainer h4 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.hidden-button p {
+  font-family: "Playfair Display", serif;
+}
+.hidden-button img {
+  height: 15px;
+}
