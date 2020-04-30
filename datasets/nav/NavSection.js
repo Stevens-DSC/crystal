@@ -33,7 +33,7 @@ export default (props) => (
         }
       />
     </section>
-    <div class="black-bar">
+    <div className="black-bar">
         <p>Created by the Google Developer Student Club at Stevens Institute of Technology.</p>
       </div>
   </>

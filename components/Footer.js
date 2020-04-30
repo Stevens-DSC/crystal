@@ -3,7 +3,7 @@ import { render } from "react-dom"
 export default () => (
   <>
     <div className=' text-footer'>
-      <div class='text-section'>
+      <div className='text-section'>
         <h2>More info?</h2>
         <p>
           We're working on it. Submit a pull request to add some more
